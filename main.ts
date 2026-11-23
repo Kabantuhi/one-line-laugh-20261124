@@ -15,6 +15,7 @@ const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 // The line: a meeting that should have been an email, escalated one step
 // further, until it becomes a meeting again. Everyday truth (everyone has sat
 // in that meeting), surprise at the end, one sentence, nothing to explain.
+// 117 characters, well inside the 200-character gate.
 mkdirSync(OUTPUT_DIR, { recursive: true });
 writeFileSync(
   join(OUTPUT_DIR, 'entry.txt'),
